@@ -17,11 +17,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHu-MU-uZB">
-                                <rect key="frame" x="119" y="279" width="160" height="126"/>
+                                <rect key="frame" x="0.0" y="281" width="414" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Show"/>
+                                <state key="normal" title="Show SFSafariViewController"/>
                                 <connections>
                                     <action selector="showClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oUQ-57-PLI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upt-i2-Dpu">
+                                <rect key="frame" x="0.0" y="425" width="414" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Show SFAuthenticationSession"/>
+                                <connections>
+                                    <action selector="showSFAClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fP3-bV-Vyb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Os4-Si-BW0">
+                                <rect key="frame" x="0.0" y="595" width="414" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Show ASWebAuthenticationSession"/>
+                                <connections>
+                                    <action selector="showASWClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LNC-py-tfl"/>
                                 </connections>
                             </button>
                         </subviews>
